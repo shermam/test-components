@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+board, rank, square{
+	display: flex;
+}
+
+board, square{
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+rank{
+	flex-direction: row;
+}
+
+square{
+	width: 75px;
+	height: 75px;
+	background: #efe8c9;
+	float: left;
+	font-size: 70px;
+}
+
+square p{
+	position: absolute;
+}
+
+square p:first-child{
+	color: #fafafa;
+	text-shadow: 4px 2px 3px rgba(0,0,0,0.3);
+}
+
+square p:last-child{
+	color: #3a3a3a;
+}
+
+rank:nth-child(odd)	square:nth-child(even),
+rank:nth-child(even) square:nth-child(odd){
+	background: #cdc85b;
+}

@@ -1,0 +1,17 @@
+Requisitos do GRID
+
+- Responsivo (Transformar colunas em linhas);
+- Pesquisa (Geral e Por coluna)
+- Botão de Configurações: 
+	- Pesquisa por coluna;
+	- Ocultar colunas;
+	- Paginação;
+	- Virtual Repeat;
+	- Editar inline e modal;
+- Ordenação das colunas;
+- Agrupamento de colunas;
+- Scroll horizontal por default;
+- Selecionar linhas (single e multiple);
+- Resize columns;
+- Agregate Functions;
+- Status bar;
